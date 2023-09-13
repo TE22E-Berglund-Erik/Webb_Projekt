@@ -1,4 +1,68 @@
 body {
 
-background-image: url(Bilder/winter-snow.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(Bilder/winter-snow.jpg);
+    }
+    
+ .rubrik {
+         
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: 5px solid black;
+        
+    }
+    
+h1{
+    background-color: grey; 
+    color: white ;
+    
 }
+  
+  .LedigaDagar {
+    padding: 1% 5%;
+    background-color: grey;
+    border: 3px solid white;
+    list-style: square;
+    color: white;
+  }
+  
+  .Julafton {
+    background-color: white;
+    color: red;
+  }
+  
+  .NyarsDagen {
+    background-color: darkgoldenrod;
+    color: white;
+  }
+
+  
+  .kalendar {
+    text-align: center;
+    padding: 3px;
+    border: 6px solid black;
+    
+  }
+  
+  .kalendar * {
+    border: 2px solid red;
+    border-collapse: collapse;
+  }
+  
+  .kalendar th,td {
+    background-color: darkgrey;
+    
+  }
+  
+  .kalendar .rödaDagar {
+    color: rgb(139, 0, 0);
+  }
+  
+  .sidfot {
+    border: 5px solid black;
+    margin-top: 2%;
+  }
+
