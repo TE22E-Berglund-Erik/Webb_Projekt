@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&family=Roboto+Mono:wght@500&display=swap');
+
+
+div {
+    border: 2px solid #D6001C;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+
+#background{
+ background-image: url(Bilder/snow_winter_trees.jpg);
+ background-size: cover;
+ 
+}
+
+#links {
+    display: flex;
+	justify-content: space-around;
+	margin: 15px;
+	padding: 15px 0;    
+
+}
+#links img {
+	height: 50px;
+}
+
+#links img {
+	border: 3px solid black;
+	padding: 10px;
+    border-radius: 20px;
+}
+
+#background p {
+	text-align: center;
+	margin-top: 50;
+    margin-bottom: 100;
+	font-family: "Mountains of Christmas";
+	font-size: 50px;
+}
+
+#hela {
+	display: flex;
+	gap: 10px;
+	padding: 5px;
+}
+
+#vänster {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 15px;
+	padding: 5px;
+}
+
+#vänster img {
+	height: 40px;
+}
+
+#hela {
+	
+    flex-direction: row;
+    display: flex;
+}
+
+#höger img {
+	width: 100%;
+	height: 100%;
+	object-fit: fill;
+}
+
+
+
+
+
+
+
+#footer {
+text-align: center;
+
+}
