@@ -1,0 +1,46 @@
+body {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr 6fr 1fr;
+    }
+    
+ .rubrik {
+         
+    
+    justify-content: space-between;
+    width: 100%;
+    border: 5px solid black;
+    grid-column: 1/4;
+    }
+    
+.rubrik img {
+    justify-self:;
+    align-self: ;
+
+}
+h1{
+    background-color: grey; 
+    color: white ;
+    grid-column: 2/3;
+    
+}
+  
+  .LedigaDagar {
+    padding: 1% 5%;
+    background-color: grey;
+    border: 3px solid white;
+    list-style: square;
+    color: white;
+  }
+  
+
+  
+  .kalendar {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    text-align: center;
+    padding: 3px;
+    border: 6px solid black;
+    
+  }
