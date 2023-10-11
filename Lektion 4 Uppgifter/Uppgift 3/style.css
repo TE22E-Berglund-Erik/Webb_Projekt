@@ -1,46 +1,110 @@
 body {
-    display: grid;
-    align-items: center;
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 1fr 2fr 6fr 1fr;
-    }
-    
- .rubrik {
-         
-    
-    justify-content: space-between;
-    width: 100%;
-    border: 5px solid black;
-    grid-column: 1/4;
-    }
-    
-.rubrik img {
-    justify-self:;
-    align-self: ;
-
+  background-image: url(winter_bg3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 99%;
+  /* margin-bottom: 0px; */
 }
-h1{
-    background-color: grey; 
-    color: white ;
-    grid-column: 2/3;
-    
+.grid-box {
+  display: grid;
+  grid-template-columns: 10% auto 10%;
+  grid-template-rows: 10% 20% auto 5%;
+  gap: 16px;
 }
-  
-  .LedigaDagar {
-    padding: 1% 5%;
-    background-color: grey;
-    border: 3px solid white;
-    list-style: square;
-    color: white;
-  }
-  
 
+header {
+  text-align: center;
+
+  font-size: 1.5rem;
+  color: beige;
+  background-color: dimgray;
+  border: 3px solid brown;
+}
+header h1 {
+  margin-top: 5px;
+}
+
+#right {
+  justify-self: end;
+}
+
+.kalender h1 {
+  background-color: grey;
+  color: white;
+}
+.högtider {
+  padding: 1% 5%;
+  background-color: grey;
+  border: 3px solid gold;
+  list-style: square;
+  color: white;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  width: 400px;
+  justify-self: center;
+  color: white;
+  height: fit-content;
+  align-self: center;
+}
+
+.kalender {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+
+  padding: 16px;
+
+  background-color: #f6e9dc;
+  border: 2px solid gray;
+  grid-row: 3/4;
+  grid-column: 2/3;
+}
+.kalender h2 {
+  margin-bottom: 10px;
+  padding: 16px 0;
+
+  text-align: center;
+  background-color: gray;
+  border: 2px solid brown;
+}
+
+.kalender h1 {
+  margin: 0;
+  padding: 25px 0;
+
+  text-align: center;
+  border: 2px solid brown;
+}
+footer {
+  text-align: center;
+  padding-bottom: 16px;
+}
+
+footer a {
+  padding: 0.25rem;
   
-  .kalendar {
-    grid-column: 2/3;
-    grid-row: 3/4;
-    text-align: center;
-    padding: 3px;
-    border: 6px solid black;
-    
-  }
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow:
+    0 0 7px black,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #fff,
+    0 0 82px #fff,
+    0 0 92px #fff,
+    0 0 102px #fff,
+    0 0 151px #fff;
+}
+
+
+footer {
+  grid-row: 4/5;
+  grid-column: 2/3;
+}
+#julafton {
+  color: red;
+  background-color: white;
+}
+#nyårsdagen {
+  background-color: gold;
+}
