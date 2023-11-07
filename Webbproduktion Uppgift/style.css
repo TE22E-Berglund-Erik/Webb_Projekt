@@ -37,16 +37,22 @@ button img {
 
 main {
   display: grid;
-  grid-template-columns: 5% auto 5%;
+  grid-template-columns: 10% auto 10%;
   grid-template-rows: 5% auto 5%;
-  background: url(jordgubbar.webp), lightgray 50% / cover no-repeat;
+  background: url(jordgubbar.webp);
+ 
   height: 2250px;
   flex-shrink: 0;
 }
 
 footer {
-  height: 303px;
-}
+    height: 300px;
+  }
+  
+#footerlogga{
+    height: 160px;
+    margin-top: 50px;
+  }
 
 #receptet {
   grid-column: 2/3;
