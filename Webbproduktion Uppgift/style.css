@@ -7,8 +7,6 @@ header {
   color: #fff;
 }
 
-nav {}
-
 .knappar {
   display: flex;
   gap: 50px;
@@ -58,7 +56,7 @@ footer {
 
 #footerlogga {
   height: 160px;
-  margin-top: 50px;
+  float: left;
 }
 
 #receptet {
@@ -144,7 +142,7 @@ h1 {
 p {
   font-size: 24px;
   text-align: center;
- 
+
 }
 
 
@@ -164,7 +162,7 @@ p {
 .star-box {
   display: flex;
   align-items: center;
- 
+
   gap: 5px;
 }
 
@@ -209,9 +207,54 @@ p {
   background-image: url('hjärta.webp');
   background-size: cover;
   margin-right: 5px;
-  
+
 }
-.betyg{
+
+.betyg {
   width: 100%;
   justify-self: center;
+}
+
+
+
+.container {
+  margin-left: 20%;
+
+}
+
+.text {
+  display: inline-block;
+  font-size: 24px;
+}
+
+#prenumerera {
+  display: inline-block;
+  border-radius: 20px;
+  background: #F00;
+  color: #FFF;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+#kontakt a {
+  font-size: 24px;
+  text-decoration: none;
+  color: black;
+  margin-left: 10px;
+}
+#kontakt {
+  overflow: hidden; 
+  margin-top: 2%;
+  margin-left: 5%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+
+.ikoner {
+  width: 30px; 
+  
+  margin-right: 10px;
 }
