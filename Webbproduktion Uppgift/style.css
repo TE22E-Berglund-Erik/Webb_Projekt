@@ -49,15 +49,7 @@ main {
   flex-shrink: 0;
 }
 
-footer {
-  height: 300px;
 
-}
-
-#footerlogga {
-  height: 160px;
-  float: left;
-}
 
 #receptet {
   grid-column: 2/3;
@@ -66,7 +58,7 @@ footer {
   border-radius: 20px;
   display: grid;
   grid-template-columns: 40% auto;
-  grid-template-rows: 10 20% auto;
+  grid-template-rows: 25% auto;
 }
 
 #receptet h1 {
@@ -98,20 +90,16 @@ footer {
 
 li {
   font-size: 35px;
-
-
 }
 
 #steg h1 {
   margin-left: 8%;
   margin-top: 5%;
-
 }
 
 h2 {
   text-align: center;
   font-size: 35px;
-
 }
 
 h1 {
@@ -136,90 +124,83 @@ h1 {
 
 #steg li {
   margin-left: 20px;
-
 }
 
 p {
   font-size: 24px;
   text-align: center;
-
 }
-
 
 .box {
   border: 2px solid black;
   display: flex;
-  align-items: center;
   padding: 10px;
-  width: 285px;
   border-radius: 20px;
   gap: 20px;
-  align-self: center;
-  flex-shrink: 0;
-  margin-left: 10%;
+  float: left;
+  margin-left: 20%;
 }
 
 .star-box {
   display: flex;
-  align-items: center;
-
   gap: 5px;
 }
 
 .star {
-  width: 36px;
+  width: 37px;
   height: 38px;
   background-image: url('stjärna.webp');
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   margin-right: 5px;
-
 }
 
 .green-box {
   background-color: rgba(149, 255, 172, 0.80);
-
-
   color: black;
   padding: 10px;
-
   border-radius: 10px;
-
 }
 
 .red-box {
   background: #F88;
   color: black;
-
   display: flex;
   align-items: center;
   width: 138px;
-  height: 49px;
+  height: 62.5px;
   font-size: 24px;
   gap: 20px;
   border-radius: 14px;
-  flex-shrink: 0;
-}
+  margin-right: 20px;
 
+}
 
 .heart {
   width: 43px;
   height: 39px;
   background-image: url('hjärta.webp');
-  background-size: cover;
-  margin-right: 5px;
-
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 5px;
 }
 
 .betyg {
-  width: 100%;
-  justify-self: center;
+  display: grid;
+  place-items: center;
 }
 
+footer {
+  height: 300px;
+}
 
+#footerlogga {
+  height: 160px;
+  float: left;
+}
 
 .container {
   margin-left: 20%;
-
 }
 
 .text {
@@ -243,8 +224,9 @@ p {
   color: black;
   margin-left: 10px;
 }
+
 #kontakt {
-  overflow: hidden; 
+  overflow: hidden;
   margin-top: 2%;
   margin-left: 5%;
   display: flex;
@@ -252,9 +234,7 @@ p {
   margin-bottom: 10px;
 }
 
-
 .ikoner {
-  width: 30px; 
-  
+  width: 30px;
   margin-right: 10px;
 }
